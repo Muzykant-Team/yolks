@@ -22,7 +22,7 @@ jobs:
           - java8_python2
           - java11_python3
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v6
       - uses: docker/setup-buildx-action@v3
         with:
           buildkitd-flags: --debug
