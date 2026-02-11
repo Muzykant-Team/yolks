@@ -23,7 +23,6 @@ jobs:
           - '1.60'
           - '1.84'
           - '1.90'
-          - '1.94'
           - 'latest'
     steps:
       - uses: actions/checkout@v6
